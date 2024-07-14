@@ -1,0 +1,356 @@
+.container-fluid ul{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+.container-fluid ul li i{
+    margin-right: 10px;
+}
+.container-fluid ul li span{
+    font-size: 13px;
+}
+.container-fluid ul li{
+    margin-left: 20px;
+}
+.container-fluid ul li a{
+    text-decoration: none;
+    color: black;
+}
+#location{
+    margin-left: 150px;
+}
+
+.my-container {
+    position: relative;
+    padding-top: 20px; /* Adjust as needed */
+    padding-bottom: 10px; /* Adjust as needed */
+}
+
+.my-container::before,
+.my-container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0.1px; /* Adjust the thickness of the line */
+    background-color: black; /* Adjust the color of the line */
+}
+
+.my-container::before {
+    top: 0;
+}
+
+.my-container::after {
+    bottom: 0;
+}
+.container-fluid .row .col-9 img{
+    margin-left: 650px;
+    margin-top: 10px;
+}
+.container-fluid .row .col-3 ul li a{
+ padding: 20px;
+}
+.container-fluid .row .col-3 ul li a p{
+    padding: 4px;
+}
+.container-fluid .row .col-3 ul li a i{
+    color: black;
+    font-size: 20px;
+}
+.container-fluid .row .col-3 ul li a i:hover{
+ color: grey;
+}
+.container-fluid .row .col-9 .navicon ul{
+    margin-left: 180px;
+}
+.container-fluid .row .col-9 .navicon ul li{
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.container-fluid .row .col-9 .navicon ul li a{
+    font-weight: 500;
+}
+#sale{
+    color: red;
+}
+.container-fluid .row .col-9 .navicon ul li a:hover{
+text-decoration: underline red;
+}
+.carousel-inner .carousel-item p{
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    font-style: italic;
+}
+.banner{
+    background-image: url(https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw7f7d705f/Landing%20Image%20Block/Musthead_Dsktop.jpg?sw=1410&q=100);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+.banner .row .col-4{
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-between;
+}
+.banner .row .col-4 a{
+font-size: 16px;
+text-decoration: none;
+}
+.menu-link {
+    border: 1px ridge black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    text-align: center;
+    height: 45px;
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves like a block */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    
+}
+
+.menu-link:hover {
+    border: 2px solid black;
+    background-color: transparent; /* Remove background on hover */
+    color: black;
+    font-weight: 700;
+}
+.menu-link1{
+    border: 1px ridge black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    text-align: center;
+    height: 45px;
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves like a block */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+.menu-link1:hover {
+    border: 2px solid black;
+    background-color: transparent; /* Remove background on hover */
+    color: black;
+    font-weight: 700;
+}
+.menu-link2{
+    border: 1px ridge black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    text-align: center;
+    height: 45px;
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves like a block */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+.menu-link2:hover {
+    border: 2px solid black;
+    background-color: transparent; /* Remove background on hover */
+    color: black;
+    font-weight: 700;
+}
+
+.row .col-2 a{
+    padding: 10px;
+    margin-left: 10px;
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+}
+#men{
+    color: black;
+    text-decoration: underline;
+}
+.row .col-2 a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.row .col-1 i{
+    font-size: 27px;
+    color: black;
+    
+}
+.row .col-1 i:hover{
+color: grey;
+}
+
+.row .col-3 p{
+    text-align: center;
+    margin: 0;
+
+}
+.menu-link3 {
+    border: 1px ridge black;
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    width: 100px;
+    text-align: center;
+    height: 45px;
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves like a block */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 20px;
+    
+}
+.menu-link4{
+    border: 1px ridge black;
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    width: 120px;
+    text-align: center;
+    height: 45px;
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves like a block */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.menu-link5{
+    border: 1px ridge black;
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    width: 160px;
+    text-align: center;
+    height: 45px;
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves like a block */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    margin-bottom: 30px;
+}
+.image1{
+    position: relative;
+}
+.offer{
+    position: absolute;
+   top: 0;
+   margin-left: 290px;
+   padding: 10px;
+   color: red;
+}
+.menu-link6{
+    border: 1px ridge white;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    width: 280px;
+    text-align: center;
+    height: 45px;
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves like a block */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+.menu-link6:hover{
+    border: 2px solid white;
+    background-color: transparent; /* Remove background on hover */
+    color: white;
+    font-weight: 700;
+}
+.menu-link7{
+    border: 1px ridge white;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    width: 280px;
+    text-align: center;
+    height: 45px;
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Ensure the link behaves like a block */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    margin-bottom: 30px;
+    /* margin-right: 20px; */
+}
+.menu-link7:hover{
+    border: 2px solid white;
+    background-color: transparent; /* Remove background on hover */
+    color: white;
+    font-weight: 700;
+}
+.catogery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28vh; /* Full height viewport */
+    padding-left: 20px;
+    text-align: center;
+}
+
+.circle-image {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Make sure the height is equal to the width */
+    border-radius: 50%; /* This creates the circular shape */
+    object-fit: cover; /* Ensures the image covers the entire area without stretching */
+}
+.shoe-name{
+   padding-top: 10px;
+   
+
+}
+.row .catogery .circle-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.offer-image{
+    width: 100%;
+}
+.banner1{
+    margin-top: 30px;
+    height: 310px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw45afbbe1/Image%20with%20Text/Final%20Bata%20Franchise%20Men%202250x500.jpg?sw=1410&q=100);
+    border: 1px solid black;
+}
+.details a{
+    text-decoration: none;
+    color: black;
+    
+}
+.details a h5{
+    padding-left: 40px;
+}
+.details p{
+    margin-left: 40px;
+}
+.text-1{
+    font-weight: 500;
+}
+.text-reset:hover{
+    text-decoration: underline;
+}
+.text-reset{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+#lang1 i{
+    color:black;
+}
+#lang1 i:hover{
+    color: grey;
+}
